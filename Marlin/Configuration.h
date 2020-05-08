@@ -735,10 +735,10 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 177.76, 177.76, 160, 165.20 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 177.76, 177.76, 160, 194.35 } // ideal
 // hadron x, y: GT2-2M-18T pulley 11.46mm pdia, 200 step/rev * 32nd microstep
 // hadron z: M8-1.25 threaded rod, 200 step/rev no microstep
-// hadron e: ~11mm pdia printrbot extruder, 200 step/rev * 32nd microstep
+// hadron e: 10.48mm pdia printrbot extruder, 200 step/rev * 32nd microstep
 
 /**
  * Default Max Feed Rate (mm/s)
